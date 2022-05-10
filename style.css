@@ -1,0 +1,30 @@
+.pizza { 
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    background-color: orange
+}
+
+
+@media (min-width: 768px) {
+  .pizzas {
+      display: flex;
+      display:inline-flex;
+  }
+      body {
+          background-color: lightseagreen
+      }
+  }  
+    .footer  {
+      position:bottom;
+      background-color: yellowgreen;
+      display: flex;
+      padding: 1em;
+      margin: 1em;
+      
+    }
+    .side-bar  {
+        text-align: right;
+        flex: 1;
+    }
